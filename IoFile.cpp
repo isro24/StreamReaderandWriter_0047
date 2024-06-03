@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     string baris;
-
+    
     ofstream outfile;
 
     outfile.open("ContohFile.txt");
@@ -38,6 +38,8 @@ int main(){
         {
             cout << baris << endl;
         }
+        infile.close();
     }
-
+    else cout << " Unable to open file ";
+    return 0;
 }
