@@ -14,7 +14,7 @@ int main(){
 
     while (true) 
     {
-        cout << "_ ";
+        cout << "- ";
 
         getline(cin, baris);
 
