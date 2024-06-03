@@ -26,4 +26,11 @@ int main(){
     
     outfile.close();
     
+    ifstream infile;
+
+    infile.open("ContohFile.txt");
+
+    cout << endl << ">= Membuka dan membaca file" << endl;
+
+
 }
